@@ -1,0 +1,6 @@
+f=open('e:/mytext.txt','r')
+print(f.tell())
+s=f.read(1)
+print(s)
+print(f.tell())
+f.close()

@@ -1,0 +1,8 @@
+f=open('e:/mytext1.txt','rb')
+print(f.tell())
+f.read(3)
+f.seek(-7,2)
+print(f.tell())
+s=f.read()
+print(s)
+f.close()
